@@ -851,7 +851,6 @@ dependencies = [
  "deno_crypto",
  "deno_runtime",
  "deno_web",
- "futures",
  "tokio",
 ]
 

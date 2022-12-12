@@ -1,0 +1,15 @@
+[package]
+name = "deno_runtime_segfault"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+deno_core = "0.153.0"
+deno_runtime = "0.79.0"
+deno_crypto = "0.85.0"
+deno_web = "0.102.0"
+futures = "0.3.21"
+axum = { version = "0.5.17" }
+tokio = { version = "1.21.1", features = ["full"] }
